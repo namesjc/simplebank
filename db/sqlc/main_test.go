@@ -4,8 +4,9 @@ import (
 	"database/sql"
 	"log"
 	"os"
-	"simplebank/util"
 	"testing"
+
+	"github.com/namesjc/simplebank/util"
 
 	// we have to import the driver, but don't use it in our code
 	// so we use the `_` symbol
